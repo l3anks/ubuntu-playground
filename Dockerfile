@@ -1,2 +1,2 @@
-FROM ubuntubaseimage_unraid
+FROM ubuntubaseimage_unraid:latest
 CMD bash
