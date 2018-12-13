@@ -1,2 +1,2 @@
 FROM siwatinc/ubuntubaseimage_unraid:latest
-CMD bash && tail -f /dev/null
+CMD apt-get update && apt-get -y install $packages || : && bash && tail -f /dev/null
